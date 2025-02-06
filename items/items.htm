@@ -1,98 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>My Store - Item One</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-    }
-    .header {
-      margin: 20px;
-      padding: 10px;
-      border: 2px solid black;
-    }
-    .header h1 {
-      background-color: lightblue;
-      text-align: center;
-      margin: 0;
-      padding: 10px;
-    }
-    .nav {
-      background-color: white;
-      text-align: center;
-      padding: 10px;
-    }
-    .nav a {
-      text-decoration: none;
-      color: black;
-      font-weight: bold;
-      margin: 0 15px;
-    }
-    .content {
-      margin: 20px;
-    }
-    /* Item details box styling */
-    .item {
-      border: 2px solid black;
-      padding: 20px;
-      margin-top: 20px;
-    }
-    .item h2 {
-      text-align: center;
-    }
-    .price {
-      font-size: 1.2em;
-      color: red;
-      text-align: center;
-      margin-top: 10px;
-    }
-    .description {
-      margin-top: 10px;
-      text-align: center;
-    }
-    .image {
-      text-align: center;
-      margin-top: 20px;
-    }
-    .image img {
-      max-width: 100%;
-    }
-    .back {
-      text-align: center;
-      margin-top: 20px;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Very Bestest Buy - Him Guy</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .title-bar {
+            background-color: blue;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            font-size: 1.5em;
+            
+        }
+
+        .link-bar {
+            background-color: white;
+            padding: 10px;
+            text-align: center;
+            border: 1px solid blue;
+            margin: 0 auto;
+            width: 82%;
+        }
+
+        .link-bar a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: blue;
+        }
+
+        .content {
+            margin: 20px auto;
+            width: 80%;
+            border: 1px solid blue;
+            padding: 20px;
+        }
+
+        .item {
+            text-align: center;
+        }
+
+        .item h2 {
+            margin-bottom: 10px;
+        }
+
+        .item img {
+            max-width: 300px;
+            margin: 20px 0;
+        }
+
+        .item p {
+            margin: 10px 0;
+            font-size: 1.2em;
+        }
+
+        .back-link {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .back-link a {
+            text-decoration: none;
+            color: blue;
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
-  <!-- Title and Link Bar -->
-  <div class="header">
-    <h1>My Store</h1>
-    <div class="nav">
-      <!-- Note: Use relative paths (../) since this file is in the items folder -->
-      <a href="index.htm">Home</a>
-      <a href="about.htm">About Us</a>
+    <div class="title-bar">Very Bestest Buy</div>
+    <div class="link-bar">
+        <a href="../index.htm">Home</a>
+        <a href="../about.htm">About Us</a>
     </div>
-  </div>
-
-  <!-- Item Details Content -->
-  <div class="content">
-    <div class="item">
-      <h2>Item One</h2>
-      <div class="price">$10.00</div>
-      <div class="description">
-        <p>This is a great item that you will love!</p>
-      </div>
-      <div class="image">
-        <img src="item1.jpg" alt="Item One">
-      </div>
-      <div class="back">
-        <!-- Back link always goes to the home page -->
-        <a href="index.htm">Back to Home</a>
-      </div>
+    <div class="content">
+        <div class="item">
+            <h2>Woody</h2>
+            <img src="../images/item1.jpg" alt="Woody">
+            <p><strong>Price:</strong> $1.23</p>
+            <p><strong>Description:</strong>  Who wouldnt want Woody from Toy Story.</p>
+        </div>
+        <div class="back-link">
+            <a href="../index.htm">&larr; Back to Home</a>
+        </div>
     </div>
-  </div>
 </body>
 </html>
+
